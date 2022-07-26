@@ -96,6 +96,11 @@ body {
 }
 
 
+.address-section{
+    background-color: #efefef47;
+    padding: 120px 0;
+}
+
 .footer {
     /* position: absolute;
     bottom: 0;
