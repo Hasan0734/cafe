@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 48px;
+    color: #171754;
+    text-transform: uppercase;
+}
+
+.btn-success {
+    background-color: #08b565cf !important;
+}
+
+.cafe-logo {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cafe-logo .logo-1 {
+    color: #f5885d;
+}
+
+.cafe-logo .logo-2 {
+    color: #08b565cf;
+}
+
+.cafe-logo img {
+    width: 100px;
+}
+
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 5px;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 12px 23px;
+    transition: all 0.6s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background: none !important;
+    color: #08b565cf;
+}
+
+
+.banner-section {
+    background-color: #efefef47;
+    padding: 120px 0;
+}
+
+.slide-1 {
+    background-color: #f5ecff;
+    /* padding: 100px 120px; */
+}
+
+.slide-2 {
+    background-color: #cdf4e1;
+    /* padding: 100px 120px; */
+}
+
+.slide-3 {
+    background-color: #e3e4ff;
+    /* padding: 100px 120px; */
+}
+
+.carousel-item img {
+    max-height: 400px !important;
+}
+
+.carousel-indicators button {
+    width: 13px !important;
+    height: 13px !important;
+    background-color: #0b57e7 !important;
+    border-radius: 50% !important;
+}
+
+.bottom-border {
+    position: relative;
+    left: 39%;
+    background-color: orange;
+    width: 64px;
+    height: 7px;
+    border-radius: 50px;
+}
+
+
+.footer {
+    /* position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: -2; */
+    background: #101020;
+
+}
+
+.footer .footer-section {
+    padding: 100px 0px;
+    color: white;
+
+}
+
+.follow .nav-link {
+    font-size: 24px;
+    background: #f5885d;
+    padding: 10px;
+    border-radius: 50%;
+    width: 49px;
+    height: 46px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    transition: 0.6s;
+}
+
+.follow .nav-link:hover {
+
+    background: #474747cf;
+
+}
+
+.footer .all-reserved {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin: 0;
+    padding: 10px;
+}
